@@ -34,9 +34,31 @@ public class IntListClass {
 	}
 
 
+<<<<<<< HEAD
 	
+=======
+	//For the Floot
+
+
+
+	//we have to create the instace cariables here 
+	static {
+		System.out.println(String.format("Enter the number of elemnts want to add into the Floot Array{}"));
+	}
+	static Integer len2=src.nextInt();
+	static float[] arr3= new float[len2];
+	public void FloatNum() {//Method to add the elements into the list
+		//the loop for the iterations how many numbers we want to addd to the list
+		for (int i =0;i<len2;i++) {
+			System.out.println(String.format("Enter the %d th element int the Flooat Format ",i));
+			arr3[i]=src.nextFloat()	;	
+		}
+	}
+
+>>>>>>> cb93aa5e0bae96e89b7514339ed23db6ad5eb21c
 
 
 }
+
 
 
