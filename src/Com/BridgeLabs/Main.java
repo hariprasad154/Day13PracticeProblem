@@ -7,7 +7,6 @@ public class Main {
 		IntListClass obj = new IntListClass();
 		obj.IntNum();
 		obj.GetMax();
-		
 	}
 
 }
