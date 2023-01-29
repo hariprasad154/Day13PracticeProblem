@@ -34,6 +34,9 @@ public class IntListClass {
 	}
 
 
+<<<<<<< HEAD
+	
+=======
 	//For the Floot
 
 
@@ -52,6 +55,7 @@ public class IntListClass {
 		}
 	}
 
+>>>>>>> cb93aa5e0bae96e89b7514339ed23db6ad5eb21c
 
 
 }
