@@ -5,7 +5,7 @@ import java.lang.reflect.Array;
 public class IntListClass {
 
 	int Max ;//TOget the Max i
-	
+	float Max2 ;
 	static Scanner src=new Scanner(System.in);
 	//we have to create the instace cariables here 
 	static {
@@ -34,9 +34,6 @@ public class IntListClass {
 	}
 
 
-<<<<<<< HEAD
-	
-=======
 	//For the Floot
 
 
@@ -54,8 +51,18 @@ public class IntListClass {
 			arr3[i]=src.nextFloat()	;	
 		}
 	}
-
->>>>>>> cb93aa5e0bae96e89b7514339ed23db6ad5eb21c
+	public void GetMaxFloat() {
+		Max2 =arr3[0];
+		for (int j=0;j<len2-1 ;j++ ) {
+			Float temp1=arr3[j];
+			Float nxt1=arr3[j+1];
+			Float out = (float) nxt1.compareTo(nxt1);//compare method to compare the elements
+			if (out >1 && Max2 < nxt1   ) {//Conditinal statments to pass the biggest one to max
+				Max2=nxt1;
+			}
+		}
+		System.out.println("The Largest number in the given numbers is - "+Max2);
+	}
 
 
 }
